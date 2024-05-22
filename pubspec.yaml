@@ -1,11 +1,15 @@
 name: flutter_app_badger
 description: Plugin to update the app badge on the launcher (both for Android, iOS and macOS)
-version: 1.5.0
+version: 1.6.0
 homepage: https://github.com/g123k/flutter_app_badger
 
 dependencies:
   flutter:
     sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
 
 flutter:
   plugin:
@@ -20,5 +24,5 @@ flutter:
 
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.10.0"
+  sdk: '>=2.19.6 <4.0.0'
+  flutter: ">=3.7.12"
